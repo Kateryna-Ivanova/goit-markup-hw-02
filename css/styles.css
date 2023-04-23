@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -10,7 +11,7 @@ ul {
 }
 p {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -19,11 +20,13 @@ p {
 
 .logo {
   /* text-decoration: none; */
-  font-family: "Raleway";
-  /* font-style: normal; */
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  /* line-height: 21px; */
+  line-height: 1.17; /* для визначення простору між рядками */
+  letter-spacing: 0.03em; /* для визначення відступів між літерами */
 
   /* display: flex;
 align-items: center;
@@ -44,31 +47,37 @@ flex-grow: 0; */
 
 .meny-link {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal; /* для прибирання курсиву */
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   /* letter-spacing: 0.02em; */
   color: #2e2f42;
+  line-height: 1.5; /* для визначення простору між рядками */
+  letter-spacing: 0.02em; /* визначення відступів між літерами */
 }
 .address-link {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* letter-spacing: 0.02em; */
+  letter-spacing: 0.02em; /* визначення відступів між літерами */
   color: #434455;
+}
+.hero {
+  background-color: #2e2f42;
 }
 .hero-title {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
-  /* letter-spacing: 0.02em; */
-  color: #FFFFFF;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .hero-btn {
   /* position: absolute; */
@@ -80,15 +89,16 @@ flex-grow: 0; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  font-family: "Roboto";
-  /* font-style: normal; */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  /* display: flex;
-align-items: center;
-letter-spacing: 0.04em; */
+  /*   display: flex; */
+  align-items: center;
+  letter-spacing: 0.04em;
+  /*  cursor: "pointer";  */ /* для визначення стилю курсору */
 }
 .btn-portfolio {
   width: 116px;
@@ -101,7 +111,7 @@ letter-spacing: 0.04em; */
   /* align-items: center; */
   text-align: center;
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -120,47 +130,86 @@ flex-grow: 0; */
 
 .advantages-title {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .advantages-descr {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
-.sections-title {
+.doing-title {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   color: #2e2f42;
   text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+}
+.section-team-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize; /* для визначення стилю написання тексту */
+  letter-spacing: 0.02em;
+  line-height: 1.11;
 }
 .footer-text {
   color: #f4f4fd;
 }
 
-.team-title{
+.team-title {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-title {
   font-family: "Roboto";
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: #2e2f42;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+.card {
+  background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+}
+.card-descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
 }
