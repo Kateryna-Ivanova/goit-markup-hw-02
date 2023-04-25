@@ -69,7 +69,10 @@ p {
 .meny-link-first:focus {
   color: #404bbf;
 }
-
+.address-item link:hover,
+.address-item link:focus{
+  color: #404bbf
+}
 .address {
   font-style: normal;
 }
