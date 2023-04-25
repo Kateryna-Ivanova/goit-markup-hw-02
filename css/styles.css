@@ -29,6 +29,9 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.link {
+  text-decoration: none;
+  }
 
 .logo-dark {
   color: #2e2f42;
@@ -36,6 +39,9 @@ p {
 .logo-light {
   color: #f4f4fd;
 }
+.list {
+  list-style: none;
+  }
 
 .meny-link {
   font-family: "Roboto";
